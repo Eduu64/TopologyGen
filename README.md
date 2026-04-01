@@ -60,5 +60,7 @@ topology.svg   Vectorial       Gráfico escalable para documentación técnica.
 NOTA: Si se utiliza el argumento --name (ejemplo: --name lab1), los archivos 
 se renombrarán automáticamente (ej: lab1.png y lab1.svg).
 
+---
+
 <img width="4770" height="3161" alt="topology" src="https://github.com/user-attachments/assets/ab300acc-6995-4388-8f12-6d6509664688" />
 
