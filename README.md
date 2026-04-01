@@ -7,8 +7,10 @@ Generador de topologías de red orientado a la experimentación, simulación y p
 ## Requisitos
 
 * **Python 3.x**
-* Dependencias del proyecto (instalar mediante `pip install -r requirements.txt` si el archivo existe).
-
+* Dependencias del proyecto:
+```bash
+pip install PyYAML matplotlib numpy networkx
+```
 ---
 
 ## Uso
