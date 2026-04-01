@@ -47,12 +47,13 @@ yaml_file        SÍ            Archivo YAML     Testbed a visualizar
 
 Tras una ejecución exitosa, el script genera los siguientes archivos:
 
+```bash
 --------------------------------------------------------------------------------
 Archivo        Formato         Descripción
 --------------------------------------------------------------------------------
 topology.png   Rasterizado     Imagen estándar para visualización rápida.
 topology.svg   Vectorial       Gráfico escalable para documentación técnica.
 --------------------------------------------------------------------------------
-
+```
 NOTA: Si se utiliza el argumento --name (ejemplo: --name lab1), los archivos 
 se renombrarán automáticamente (ej: lab1.png y lab1.svg).
