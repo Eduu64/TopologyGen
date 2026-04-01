@@ -1,0 +1,26 @@
+testbed:
+  name: ejemplo_lab
+
+devices:
+  R1:
+    alias: Router1
+    connections:
+      eth0:
+        ip: 10.0.0.1
+
+  SW1:
+    alias: Switch1
+    connections:
+      eth0:
+        ip: 10.0.0.2
+
+topology:
+  R1:
+    interfaces:
+      eth0:
+        link: L1
+
+  SW1:
+    interfaces:
+      eth0:
+        link: L1
