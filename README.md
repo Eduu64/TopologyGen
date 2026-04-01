@@ -28,7 +28,7 @@ python topology.py testbed.yaml
 python topology.py testbed.yaml --theme light
 python topology.py testbed.yaml --output-dir ./diagrams --name lab1
 ```
-
+```bash
 ================================================================================
                            ARGUMENTOS DISPONIBLES
 ================================================================================
@@ -40,7 +40,7 @@ yaml_file        SÍ            Archivo YAML     Testbed a visualizar
 --name           NO            Texto            Nombre base del archivo generado
 -h, --help       NO            N/A              Muestra la ayuda en consola
 ================================================================================
-
+```
 ---
 
 ## Archivos Generados
