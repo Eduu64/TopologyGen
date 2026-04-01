@@ -459,9 +459,9 @@ def main():
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog=textwrap.dedent("""\
             Examples:
-              python topology_visualizer.py testbed.yaml
-              python topology_visualizer.py testbed.yaml --theme light
-              python topology_visualizer.py testbed.yaml --output-dir ./diagrams --name lab1
+              python topology.py testbed.yaml
+              python topology.py testbed.yaml --theme light
+              python topology.py testbed.yaml --output-dir ./diagrams --name lab1
 
             Device type detection (by name keywords):
               switch   : sw, switch, l2, l3, core, access, dist, agg, bridge
